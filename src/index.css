@@ -1,17 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   margin: 0;
-  font-family: 'Questrial', sans-serif;
-  background-color:#8D8DAA;
+  font-family: "Questrial", sans-serif;
+  background-color: #dfdfde;
   box-sizing: border-box;
+
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-::selection{
-  background-color: #F56D91;
-  color:white
+::selection {
+  background-color: #06113c;
+
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #06113c;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f56d91;
+  border-radius: 20px;
 }

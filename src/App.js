@@ -1,22 +1,22 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Cards from './components/Cards';
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import About from "./components/About";
+import Work from "./components/Work";
+import Gallery from "./components/Gallery";
 function App() {
-
   return (
-    <div className='h-screen w-screen'>
+    <div className="h-screen w-screen text-s-white">
+      <Navbar />
 
-    <Navbar/>
+      <Header />
 
-   <Header/>
-
-
-
-   <Cards/>
-   </div>
+      <About />
+      <Work />
+      <Gallery/>
+    </div>
   );
 }
 
