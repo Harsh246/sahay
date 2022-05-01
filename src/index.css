@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: 'Questrial', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color:#8D8DAA;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::selection{
+  background-color: #F56D91;
+  color:white
 }

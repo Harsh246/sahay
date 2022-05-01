@@ -1,15 +1,22 @@
-
+import React from 'react';
 import './App.css';
 
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Cards from './components/Cards';
 function App() {
 
-  const [count, setCount] = useState(1);
   return (
-    <div className="App">
+    <div className='h-screen w-screen'>
 
-    
-    hi im here
-    </div>
+    <Navbar/>
+
+   <Header/>
+
+
+
+   <Cards/>
+   </div>
   );
 }
 
