@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Work from "./components/Work";
 import Gallery from "./components/Gallery";
+import Top from "./components/Top";
 function App() {
   return (
     <div className="h-screen w-screen text-s-white">
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Work />
       <Gallery/>
+      <Top/>
     </div>
   );
 }

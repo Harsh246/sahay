@@ -6,7 +6,8 @@ module.exports = {
 			's-white': '#F7F5F2',
 			's-pink':'#F56D91',
 			's-blue':'#06113C',
-			's-gray':'#DFDFDE'
+			's-gray':'#DFDFDE',
+			's-yellow':'#FF8C32'
 
 		  },
       height: {

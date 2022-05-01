@@ -53,7 +53,7 @@ export default function Navbar() {
         </li>
 
         <li className="p-4 hover:border-b-2">
-          <Link to="work" spy={true} smooth={true} offset={-80} duration={600}>
+          <Link to="work" spy={true} smooth={true} offset={-40} duration={600}>
             Work
           </Link>
         </li>
