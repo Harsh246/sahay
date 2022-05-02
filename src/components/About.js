@@ -1,11 +1,9 @@
 import React from "react";
-import { Fade } from "react-reveal";
 
 export default function About() {
   return (
     <div id="about" className="w-full min-h-50v bg-s-blue">
 
-<Fade bottom>
       <div className="w-[100%] md:w-[70%] h-full md:p-16  p-8 mx-auto flex flex-col justify-start items-start text-s-white">
         <h2 className="font-bold text-2xl md:text-2xl lg:text-4xl md:py-4  py-2 m-0">
           Cultural Organizing
@@ -22,7 +20,6 @@ export default function About() {
           of resistance and to win positive change.
         </p>
       </div>
-      </Fade>
     </div>
   );
 }

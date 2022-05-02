@@ -1,5 +1,4 @@
 import React from "react";
-import kind from '../media/kind.jpg'
 import motivate from "../media/motivate.svg";
 import distribute from "../media/distribute.svg";
 
@@ -27,7 +26,7 @@ export default function Work() {
 <Fade left >
       <div className="w-[90%] md:w-[70%] h-40  my-4 flex items-center justify-center">
         <div className="w-[40%] flex items-center justify-center ">
-          <img
+          <img alt="logo" 
             className="w-full h-auto object-scale-down object-center"
             src={motivate}
           />
@@ -42,7 +41,7 @@ export default function Work() {
           WE ORGANIZE
         </div>
         <div className="w-[40%] flex items-center justify-center ">
-          <img
+          <img alt="logo" 
             className="w-full h-auto object-scale-down object-center"
             src={team}
           />
@@ -51,7 +50,7 @@ export default function Work() {
       <Fade left>
       <div className="w-[90%] md:w-[70%] h-40  my-4 flex items-center justify-center">
         <div className="w-[40%] flex items-center justify-center ">
-          <img
+          <img alt="logo" 
             className="w-full h-auto object-scale-down object-center"
             src={distribute}
           />

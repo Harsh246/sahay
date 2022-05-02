@@ -14,6 +14,14 @@ body {
   overflow-x: hidden;
 }
 
+.social{
+  transition: all 0.7s ease 0s;
+  border-radius: 50%;
+}
+.social:hover{
+  border-radius: 0;
+}
+
 ::selection {
   background-color: #06113c;
 
@@ -31,4 +39,9 @@ body {
 *::-webkit-scrollbar-thumb {
   background-color: #f56d91;
   border-radius: 20px;
+}
+
+#hnav{
+  z-index: 9999999 !important;
+  background-color: #06113c !important;
 }
