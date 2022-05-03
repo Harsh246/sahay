@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
 
-    <div id="contact" className='max-w-[1240px] bg-s-blue mx-auto py-36 px-12 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div id="contact" className='max-w-[1240px] bg-s-blue mx-auto py-36 px-2 grid lg:grid-cols-3 gap-8 text-gray-300'>
       <div>
         <h1 className='w-full text-3xl font-bold text-s-pink'>SAHAY.</h1>
         <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>

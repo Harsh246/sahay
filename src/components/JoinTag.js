@@ -6,7 +6,7 @@ import { BsChevronDoubleRight } from 'react-icons/bs';
 
 export default function JoinTag() {
   return (
-    <div className=" opacity-0 md:opacity-100 md:w-14 ease-in-out duration-500  w-10 h-50v md:h-60v  top-[50%] uppercase text-[15px] md:text-[16px] font-bold  bg-s-white   fixed md:top-[30%] md:left-[-4%] hover:md:left-0 right-0 text-s-white flex justify-center items-center cursor-pointer  flex-col ">
+    <div className=" opacity-0 invisible md:visible md:opacity-100 md:w-14 ease-in-out duration-500  w-10 h-50v md:h-60v  top-[50%] uppercase text-[15px] md:text-[16px] font-bold  bg-s-white   fixed md:top-[30%] md:left-[-4%] hover:md:left-0 right-0 text-s-white flex justify-center items-center cursor-pointer  flex-col ">
 
 <div className="w-[100%] bg-orange-600 h-[25vh] flex justify-center relative items-center hover:text-[17px] ">
 

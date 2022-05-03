@@ -8,6 +8,7 @@ import About from "./components/About";
 import Work from "./components/Work";
 import Gallery from "./components/Gallery";
 import Newsletter from "./components/Newsletter";
+import Testimonials from "./components/Testimonials";
 import Top from "./components/Top";
 import Social from "./components/Social";
 import JoinTag from "./components/JoinTag";
@@ -23,6 +24,7 @@ function App() {
       <Work />
       <Gallery/>
       <Newsletter/>
+      <Testimonials/>
       <Top/>
       <Social/>
       <JoinTag/>
