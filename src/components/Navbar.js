@@ -2,11 +2,16 @@ import React from "react";
 import sahay from "../media/sahay.svg";
 import { useEffect, useRef } from "react";
 
+
 import { useState } from "react";
 
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
+
+
 import { Link } from "react-scroll";
+
+
 
 export default function Navbar() {
   const navb = useRef();
@@ -17,7 +22,10 @@ export default function Navbar() {
     setNav(!nav);
   };
 
+   
   useEffect(() => {
+
+
     window.addEventListener("scroll", () => {
     //   console.log(window.pageYOffset);
       if (window.pageYOffset > 700) {
@@ -35,7 +43,7 @@ export default function Navbar() {
       ref={navb}
       className=" flex justify-between items-center h-20 w-[100%] px-4 mx-auto text-white fixed top-0 z-50 bg-transparent ease-in-out"
     >
-      <div className="w-16  lg:w-20 animate-pulse ">
+      <div id="btttn" className="w-16  lg:w-20 animate-pulse ">
          <img alt="logo" className="" src={sahay} />
       </div>
 
@@ -75,6 +83,10 @@ export default function Navbar() {
             Contact
           </Link>
         </li>
+        <li className="p-4 border-b-2 border-transparent">
+        <a target="_blank" href="https://rzp.io/l/wAk7DeXAO" rel="noreferrer" className="bg-s-pink rounded-lg p-4 ring-offset-2 ring-2 ring-transparent hover:ring-white hover:font-extrabold">Donate</a>
+        </li>
+      
       </ul>
 
       <div onClick={handleNav} className="block md:hidden">

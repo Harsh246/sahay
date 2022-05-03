@@ -5,7 +5,7 @@ export default function Newsletter() {
     <div id="volunteer" className="w-full min-h-[25vh]  text-s-blue ">
       <div className="w-[100%]  h-full  mx-auto flex justify-center items-start flex-wrap">
         <div className="w-full px-4 md:px-20 py-10 md:w-[60%] h-full  flex flex-col justify-center items-start bg-s-pink ">
-          <h1 className="text-2xl md:text-4xl font-extrabold py-2 ">
+          <h1 className="text-2xl md:text-4xl font-extrabold py-2 underline underline-offset-2 ">
             GET INVOLVED
           </h1>
           <p className="md:text-xl text-l text-left py-2  md:py-2">

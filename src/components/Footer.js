@@ -10,10 +10,10 @@ import {
 const Footer = () => {
   return (
 
-    <div id="contact" className='max-w-[1240px] bg-s-blue mx-auto py-36 px-2 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div id="contact" className='max-w-[1240px] bg-s-gray mx-auto py-36 px-2 grid lg:grid-cols-3 gap-8 text-s-blue'>
       <div>
         <h1 className='w-full text-3xl font-bold text-s-pink'>SAHAY.</h1>
-        <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
+        <p className='py-4'>No third party agency is working on behalf of Sahay for any recruitment, trainings, camps or other activities related to Sahay. Please check/consult with Sahay directly to get correct information or assistance. Please beware of any unwarranted claims made by anyone on our behalf. Kindly bring any such claims to our notice for immediate attention and action.</p>
         <div className='flex justify-between md:w-[75%] my-6'>
             <FaFacebookSquare size={30} />
             <FaInstagram size={30} />
@@ -27,7 +27,7 @@ const Footer = () => {
       <div className='lg:col-span-2 flex justify-evenly mt-6 cursor-pointer'>
     
     <div>
-        <h6 className='font-medium text-gray-400 '>Get in Touch</h6>
+        <h6 className='font-medium text-blue-800 font-bolder '>Get in Touch</h6>
         <ul>
             <li className='py-2 text-sm'>Media</li>
             <li className='py-2 text-sm'>Documentation</li>
@@ -35,7 +35,7 @@ const Footer = () => {
         </ul>
     </div>
     <div>
-        <h6 className='font-medium text-gray-400'>Useful Info</h6>
+        <h6 className='font-medium text-blue-800 font-bolder'>Useful Info</h6>
         <ul>
             <li className='py-2 text-sm'>FAQs</li>
             <li className='py-2 text-sm'>Annual Reports</li>
@@ -45,7 +45,7 @@ const Footer = () => {
         </ul>
     </div>
     <div>
-        <h6 className='font-medium text-gray-400'>Recent Campaigns</h6>
+        <h6 className='font-medium text-blue-800 font-bolder'>Recent Campaigns</h6>
         <ul>
             <li className='py-2 text-sm'>Future on Tap</li>
             <li className='py-2 text-sm'>Back to School</li>
@@ -58,7 +58,7 @@ const Footer = () => {
         </ul>
     </div>
     <div>
-        <h6 className='font-medium text-gray-400'>Careers</h6>
+        <h6 className='font-medium text-blue-800 font-bolder'>Careers</h6>
         <ul>
             <li className='py-2 text-sm'>Careers</li>
             <li className='py-2 text-sm'>Policy</li>

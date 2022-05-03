@@ -28,9 +28,10 @@ function App() {
       <Top/>
       <Social/>
       <JoinTag/>
-      <div className="w-full bg-s-blue h-[90vh] py-4 ">
-        <div className="w-[80%]  mx-auto h-1 bg-gray-600 rounded-full ">
-          </div>
+      <div className="w-full bg-s-gray h-[90vh] py-4 ">
+      <div className="w-[80%]  mx-auto h-1 bg-gray-600 rounded-full " />
+         
+         
  <Footer/>
       </div>
      

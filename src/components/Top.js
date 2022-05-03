@@ -7,7 +7,7 @@ export default function Top() {
   const [sTop, setStop] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 800) {
+      if (window.pageYOffset > 700) {
         setStop(true);
       } else {
         setStop(false);
