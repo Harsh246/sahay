@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
 
-    <div id="contact" className='max-w-[1240px] bg-s-gray mx-auto py-36 px-2 grid lg:grid-cols-3 gap-8 text-s-blue'>
+    <div id="contact" className='max-w-[1240px] bg-s-gray mx-auto px-4 py-36 text-s grid lg:grid-cols-3 gap-8 text-s-blue'>
       <div>
         <h1 className='w-full text-3xl font-bold text-s-pink'>SAHAY.</h1>
         <p className='py-4'>No third party agency is working on behalf of Sahay for any recruitment, trainings, camps or other activities related to Sahay. Please check/consult with Sahay directly to get correct information or assistance. Please beware of any unwarranted claims made by anyone on our behalf. Kindly bring any such claims to our notice for immediate attention and action.</p>
@@ -24,7 +24,7 @@ const Footer = () => {
             
         </div>
       </div>
-      <div className='lg:col-span-2 flex justify-evenly mt-6 cursor-pointer'>
+      <div className='lg:col-span-2 flex justify-evenly gap-4 flex-wrap mt-6 cursor-pointer text-sm md:text-lg'>
     
     <div>
         <h6 className='font-medium text-blue-800 font-bolder '>Get in Touch</h6>

@@ -5,14 +5,21 @@ import distribute from "../media/distribute.svg";
 import team from "../media/team.svg";
 
 import Fade from 'react-reveal/Fade';
+// import {CgArrowsHAlt} from 'react-icons/cg';
 
 export default function Work() {
   return (
     <div
       id="work"
-      className="w-full min-h-90v  flex flex-col items-center justify-start text-s-blue   bg-[url('./media/kind.jpg')]  bg-cover  bg-center bg-no-repeat bg-fixed "
+      className="w-full min-h-90v relative flex flex-col items-center justify-start text-s-blue   bg-[url('./media/kind.jpg')]  bg-cover  bg-center bg-no-repeat bg-fixed "
     >
 
+{/* <div className="absolute w-[40px] h-[75%] bg-transparent rounded-lg left-0 right-0 ml-auto mr-auto bottom-[10%] top-[15%] ">
+
+
+<CgArrowsHAlt size={40} className="sticky w-[40px] h-4  text-red-500 left-0 right-0 top-[25%]"/>
+
+</div> */}
 
 
 <div className="w-full min-h-90v font-bold   p-8 flex flex-col items-center justify-start bg-[#ffffff8d]">

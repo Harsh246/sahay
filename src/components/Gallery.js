@@ -6,7 +6,6 @@ import g4 from "../media/g4.jpg";
 import g5 from "../media/g5.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import './overwrite.css';
 
 function Gallery() {
   return (

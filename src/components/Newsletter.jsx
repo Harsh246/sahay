@@ -1,6 +1,14 @@
 import React from "react";
 
-export default function Newsletter() {
+export default function Newsletter({setShow}) {
+
+
+  const showThanks = ()=>
+  {
+    setShow(true);
+  }
+
+
   return (
     <div id="volunteer" className="w-full min-h-[25vh]  text-s-blue ">
       <div className="w-[100%]  h-full  mx-auto flex justify-center items-start flex-wrap">
@@ -23,7 +31,7 @@ export default function Newsletter() {
               className="w-[70%] h-[5vh] rounded-2 text-xl bg-s-white rounded-md border-2 text-black"
             />
 
-            <div className="max-w-[25%]  p-2 mx-2 text-l rounded-full bg-s-blue text-s-white  cursor-pointer hover:drop-shadow-lg hover:text-s-gray">
+            <div onClick={showThanks} className="max-w-[25%]  p-2 mx-2 text-l rounded-full bg-s-blue text-s-white  cursor-pointer hover:drop-shadow-lg hover:text-s-gray">
               JOIN US
             </div>
           </div>

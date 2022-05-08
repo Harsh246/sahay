@@ -32,7 +32,7 @@ export default function Testimonials() {
   var [cIndex, setCIndex] = useState(0);
   const next = () => 
   {  
-      console.log(cIndex)
+    
 
 
       if(cIndex >=2)
@@ -58,7 +58,7 @@ next();
 
   return ()=>
   {
-      clearInterval(int);
+      clearTimeout(int);
   }
 
   // eslint-disable-next-line react-hooks/exhaustive-deps

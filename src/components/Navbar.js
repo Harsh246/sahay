@@ -84,7 +84,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="p-4 border-b-2 border-transparent">
-        <a target="_blank" href="https://rzp.io/l/wAk7DeXAO" rel="noreferrer" className="bg-s-pink rounded-lg p-4 ring-offset-2 ring-2 ring-transparent hover:ring-white hover:font-extrabold">Donate</a>
+        <a  target="_blank" href="https://rzp.io/l/wAk7DeXAO" rel="noreferrer" className="bg-s-pink rounded-lg p-4 ring-offset-2 ring-2 ring-transparent hover:ring-white hover:font-extrabold">Donate</a>
         </li>
       
       </ul>

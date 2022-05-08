@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 
@@ -13,7 +13,12 @@ import Top from "./components/Top";
 import Social from "./components/Social";
 import JoinTag from "./components/JoinTag";
 import Footer from "./components/Footer";
+import Thanks from "./components/Thanks";
 function App() {
+
+
+  const [showThanks, SetShowThanks] = useState(false);
+
   return (
     <div className="h-screen w-screen text-s-white">
       <Navbar />
@@ -23,7 +28,10 @@ function App() {
       <About />
       <Work />
       <Gallery/>
-      <Newsletter/>
+      <Newsletter   setShow= {SetShowThanks}/>
+     {
+       showThanks && <Thanks  setShow={SetShowThanks}  />
+     } 
       <Testimonials/>
       <Top/>
       <Social/>
