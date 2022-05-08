@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 
 import { useState } from "react";
 
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu,AiOutlineDown } from "react-icons/ai";
 
 
 
@@ -55,10 +55,31 @@ export default function Navbar() {
           </Link>
         </li>
 
-        <li className="p-4 border-b-2 border-transparent  hover:border-s-white">
-          <Link   to="about" spy={true} smooth={true} offset={-80} duration={600}>
-            About
+        <li className="p-4 border-b-2 border-transparent  hover:border-s-white flex items-center group  relative">
+          <Link   to="about" spy={true} smooth={true} offset={-80} duration={600} className="pr-2">
+            About 
           </Link>
+<AiOutlineDown/>
+
+          <ul className="hidden p-2 absolute w-[100%] flex-col  justify-evenly items-center group-hover:flex bottom-[-20vh] left-0 right-0 h-[20vh] bg-[#000000b5] uppercase text-sm box-border cursor-pointer">
+          <li className=" border-b-2 border-transparent text-center hover:border-s-white">  
+        {/* dynamic border increases height/size which doesnt look nice so instead change the color. */}
+          
+            Soul Kitchen
+          
+        </li>
+        <li className=" border-b-2 border-transparent  hover:border-s-white">  
+        {/* dynamic border increases height/size which doesnt look nice so instead change the color. */}
+          
+            Untapped
+          
+        </li> <li className=" border-b-2 border-transparent  hover:border-s-white">  
+        {/* dynamic border increases height/size which doesnt look nice so instead change the color. */}
+          
+            Sanitation
+          
+        </li>
+            </ul>
         </li>
 
         <li className="p-4 border-b-2 border-transparent  hover:border-s-white">
@@ -89,10 +110,20 @@ export default function Navbar() {
       
       </ul>
 
+
+<div className="min-w-[30%] md:hidden flex justify-between items-center ">
+  <ul className="flex uppercase md:hidden m-2 text-l box-border cursor-pointer ">
+      <li className=" border-b-2 border-transparent">
+        <a  target="_blank" href="https://rzp.io/l/wAk7DeXAO" rel="noreferrer" className="bg-s-pink rounded-lg p-2 ring-offset-2 ring-2 ring-transparent hover:ring-white hover:font-extrabold">Donate</a>
+        </li>
+      </ul>
+
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
+</div>
+      
       <div id="hnav"
         className={
           nav
@@ -127,19 +158,25 @@ export default function Navbar() {
               >
                 About
               </Link>
+
+           
             </li>
 
+           
+
             <li className="p-4 border-b border-[#DFDFDE]">
-              <Link  
-                to="header"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={600}
-              >
-                Home
-              </Link>
+            <Link   to="work" spy={true} smooth={true} offset={-40} duration={600}>
+            Work
+          </Link>
             </li>
+            <li className="p-4 border-b border-[#DFDFDE]">
+            <Link   to="gallery" spy={true} smooth={true} offset={-80} duration={600}>
+            Gallery
+          </Link>
+            </li>
+
+
+           
 
             <li className="p-4 border-b border-[#DFDFDE]">
               <Link  
